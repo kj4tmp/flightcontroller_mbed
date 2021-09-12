@@ -158,18 +158,14 @@ typedef enum {
     p46 = P1_14,
     p47 = P1_15,
     
-    LED1    = p13,
-    LED2    = p14,
-    LED3    = p15,
-    LED4    = p16,
+    LED1    = p23,
+    LED2    = p22,
+    LED3    = p24,
 
-    BUTTON1 = p11,
-    BUTTON2 = p12,
-    BUTTON3 = p24,
-    BUTTON4 = p25,
+    BUTTON1 = p32,
 
-    RX_PIN_NUMBER  = p8,
-    TX_PIN_NUMBER  = p6,
+    RX_PIN_NUMBER  = p19,
+    TX_PIN_NUMBER  = p20,
     CTS_PIN_NUMBER = p7,
     RTS_PIN_NUMBER = p5,
 
@@ -226,12 +222,12 @@ typedef enum {
     A5 = p31,
 
     /**** QSPI pins ****/
-    QSPI1_IO0 = P0_20,
-    QSPI1_IO1 = P0_21,
-    QSPI1_IO2 = P0_22,
-    QSPI1_IO3 = P0_23,
-    QSPI1_SCK = P0_19,
-    QSPI1_CSN = P0_17,
+    QSPI1_IO0 = P1_5,
+    QSPI1_IO1 = P1_4,
+    QSPI1_IO2 = P1_2,
+    QSPI1_IO3 = P1_1,
+    QSPI1_SCK = P1_3,
+    QSPI1_CSN = P1_6,
 
     /**** QSPI FLASH pins ****/
     QSPI_FLASH1_IO0 = QSPI1_IO0,
